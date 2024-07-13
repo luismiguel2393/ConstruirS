@@ -1,0 +1,15 @@
+{% load static %} <!-- Carga los archivos estáticos -->
+{% load bootstrap %} <!-- Carga la biblioteca Bootstrap -->
+
+<nav id="navbar" class="navbar">
+    <ul>
+      <li><a class="nav-link scrollto active" href="#">Home</a></li>
+      <li><a class="nav-link scrollto" href="#about">Acerca</a></li>
+      <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+      <li><a class="nav-link scrollto" href="#team">Proyectos</a></li>
+      <li><a class="nav-link scrollto" href="#portfolio">Portafolio</a></li>
+      <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+      <li><a href="{% url 'register' %}">Sign up</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+  </nav>
